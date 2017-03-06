@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Seeing a diff helped me focus on only the lines of code that had changed, so it was easier to find the error. Otherwise, I would have had to look throught a lot more code to see the difference.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+- You could make diffs and compare versions in case you make a mistake
+- You could see how your file had evoled over time
+- You could compare your file against others, in case of a conflict
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- Con: More likely to forget to commit and end up with a large commit that is (1) hard to read and (2) difficult to find errors
+- Con: Less likely to commit and could lose something
++ Pro: More thoughtful commits
++ Pro: Easier to read version history, since each commit is associated with a logical unit of code
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- If a user is more likely to make all their changes in one related file, like the text of a term paper, it would be confusing to save multple files that aren't associated with that files.
+- If a user is more likely to edit multiple files for a related change, it would be better to save them all at one.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows me the history of all commits. Also, I learned thought some side reading that I can use the additional options --pretty=oneline to show a condensed version of the text with only the commit # and the comment.
+
+Git diff can show me the diff between commits. I also learned that the options --stat and --shortstat show me the number of files changed and insertions and deletions. I'd like to know if there's a shortcut to compare one version with the previous version, so that I don't have to copy and paste both commits
+
+How might using version control make you more confident to make changes that could break something?
+I know that I could always find and revert the problem if I needed to.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use git to commit small changes to my codecase at work. Also, who knows, maybe I'd like to use it for my own small coding projects on the side.
+
+
+
+
